@@ -1,0 +1,27 @@
+#container {
+    display: flex;
+        align-items: center;
+    height: 600px;
+    /*maybe include container border */
+}
+
+.step_box {
+    background-color: #4346e8; 
+    height:auto;
+    width: 280px;
+    border-radius:30px;
+    padding: 10px;
+}
+
+#info_box{
+    height:auto;
+    border-color: black;
+    float: right; /* why is it not to the right? */
+    margin-top: 80px;
+}
+
+h1{
+    font-family:'Arial Narrow';
+    font-size: 40px;
+    margin-bottom:5px;
+}
