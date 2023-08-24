@@ -8,49 +8,47 @@
 </head>
 
 <body>
-    <div id="container">
+    <div class="container">
         <div class="step_box">
-            <section class="list">
-                <ol>
-                    <li class="steps">Step 1</li>
-                        <p class="steps_second"> YOUR INFO </p>
-                    <li class="steps" data-number="1">STEP 2</li>
-                        <p class="steps_second" data-number="1"> SELECT PLAN </p>
-                    <li class="steps" data-number="1">STEP 3</li>
-                        <p class="steps_second" data-number="1"> ADD-ONS </p>
-                    <li class="steps" data-number="1"> STEP 4</li>
-                        <p class="steps_second"> SUMMARY </p>
+            <ol>
+                <li class="steps">Step 1</li>
+                    <p class="steps_second"> YOUR INFO </p>
+                <li class="steps" data-number="1">STEP 2</li>
+                    <p class="steps_second" data-number="1"> SELECT PLAN </p>
+                <li class="steps" data-number="1">STEP 3</li>
+                    <p class="steps_second" data-number="1"> ADD-ONS </p>
+                <li class="steps" data-number="1"> STEP 4</li>
+                    <p class="steps_second"> SUMMARY </p>
                 </ol>
-            </section>
-            <img src = "graphic.png" class="image">
+        <img src = "graphic.png" class="image">
         </div>
 
-        <div id="info_box">
-            <h1><b>Personal Info </b></h1>
-            <p>Please provide your name, email address, and phone number.</p>
+    <div class="info_box">
+        <h1><b>Personal Info </b></h1>
+        <p class="provide"><b>Please provide your name, email address, and phone number.</b></p>
+        <br />
+        <br />
+        <form class = "form"> <!--use placeholder attribute-->
+            <label for="name"><b>Name</b></label>
+            <br />
+            <input type="text" id="name" size= 65 class="placeholder" placeholder="e.g. Stephen King">
+            <br />
+            <br />                
+            <label for="email"><b>Email Address</b></label>
+            <br />
+            <input type="text" id="email" size= 65 class="placeholder" placeholder="e.g. stephenking@lorem.com"></textarea>
             <br />
             <br />
-            <form class = "form">
-                <label for="name"><b>Name</b></label>
-                <br />
-                <input type="text" id="name" placeholder="e.g. Stephen King">
-                <br />
-                <br />
-                <label for="text"><b>Email Address</b></label>
-                <br />
-                <input type="text" id="email" placeholder="e.g. stephenking@lorem.com"></textarea>
-                <br />
-                <br />
-                <label for="text"><b>Phone Number</b></label>
-                <br />
-                <input type="number" id="phone" placeholder="e.g. +1 234 567 8910"></textarea>
-                <br />
-                <br />
-                <br />
-                <br />
-                <Button class= "button" type= "button" >Next Step</Button>
-            </form>
-        </div>
+            <label for="phone"><b>Phone Number</b></label>
+            <br />
+            <input type="number" id="phone" size= 65 class="placeholder" placeholder="e.g. +1 234 567 8910"></textarea>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Button class= "button" type= "button" >Next Step</Button>
+        </form>
     </div>
 
 
